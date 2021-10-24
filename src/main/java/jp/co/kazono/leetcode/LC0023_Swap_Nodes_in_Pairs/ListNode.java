@@ -1,4 +1,4 @@
-package jp.co.kazono.leetcode.LC0019_Remove_Nth_Node_From_End_of_List;
+package jp.co.kazono.leetcode.LC0023_Swap_Nodes_in_Pairs;
 
 public class ListNode {
     int val;
