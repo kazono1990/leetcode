@@ -30,6 +30,7 @@ public class Solution {
             // if nums[left] == nums[middle] == nums[right]
             // remove duplicated number.
             else {
+                left++;
                 right--;
             }
         }
