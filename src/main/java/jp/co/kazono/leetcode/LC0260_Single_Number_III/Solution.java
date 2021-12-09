@@ -1,10 +1,6 @@
-package jp.co.kazono.leetcode.LC260_Single_Number_III;
+package jp.co.kazono.leetcode.LC0260_Single_Number_III;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 public class Solution {
