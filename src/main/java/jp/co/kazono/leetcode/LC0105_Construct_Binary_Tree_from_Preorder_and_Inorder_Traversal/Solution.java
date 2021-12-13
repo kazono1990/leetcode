@@ -20,7 +20,6 @@ public class Solution {
     }
 
     private TreeNode arrayToTree(int[] preorder, int left, int right) {
-        System.out.println(preorderIndex + ", " + left + ", " + right);
         // if there are no elements to construct the tree
         if (left > right) {
             return null;
