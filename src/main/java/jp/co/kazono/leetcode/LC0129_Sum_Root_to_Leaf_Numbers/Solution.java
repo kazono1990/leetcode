@@ -1,10 +1,5 @@
 package jp.co.kazono.leetcode.LC0129_Sum_Root_to_Leaf_Numbers;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Stack;
-
 public class Solution {
     public int sumNumbers(TreeNode root) {
         return helper(root, 0);
