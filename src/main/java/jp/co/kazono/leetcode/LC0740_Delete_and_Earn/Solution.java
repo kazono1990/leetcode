@@ -18,7 +18,7 @@ public class Solution {
         // base case
         int twoBack = 0;
         int oneBack = points.getOrDefault(1, 0);
-        
+
         for (int num = 2; num <= maxNumber; num++) {
             int tmp = oneBack;
             oneBack = Math.max(oneBack, twoBack + points.getOrDefault(num, 0));
